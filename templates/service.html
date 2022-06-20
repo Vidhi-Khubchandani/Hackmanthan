@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/service.css') }}">
+    <title>SERVICES</title>
+</head>
+<header>
+
+    <ul>
+    <li><a href="/">HOME</a></li>
+    <li><a href="/about">ABOUT US</a></li>
+    <li><a href="/logout">LOGOUT</a></li>
+
+  </ul>
+
+</header>
+<body>
+
+    <div>
+        <h2 style="text-align:center">SERVICES</h2>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="../static/styles/camera.jpg" alt="open-cv" style="width:100%">
+                    <div class="container">
+                        <center><h2>Live Streaming</h2></center>
+
+                        <p>Live streaming the video and automatically saving it for further future
+                            use,investigation and help.
+                        </p>
+                        <br>
+                        <br>
+                        <button class="title"><a href="/Open Webcam" style="color:white; text-align:center;">OPEN WEBCAM</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="../static/styles/detect.jpg" alt="detect number_plate" style="width:100%">
+                    <div class="container">
+                        <center><h2>Detect the Number Plate</h2></center>
+
+                        <p>Detects the number plate of the vehicles which makes it easy to keep record of
+                            stolen vehicles and help to identify them
+                        </p>
+                        <br>
+                        <br>
+                        <button class="title"><a href="/detect_number_plate" style="color:white; text-align:center;">DETECT NUMBER PLATE</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

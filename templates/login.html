@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>LOGIN PAGE</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/login.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <h3>Welcome to login page </h3>
+    <ul>
+    <li><a href="/">HOME</a></li>
+    <li><a href="/about">ABOUT US</a></li>
+    <li><a href="/register">REGISTER</a></li>
+
+  </ul>
+
+</header>
+
+<body>
+
+    <div class="full-page">
+
+
+        <div class="sub-page">
+            <hr>
+            <center> <h1> <b>POLICE SURVEILLANCE APP</b></h1></center>
+            <hr>
+
+            <div class="navigation-bar"></div>
+
+            <div class="row">
+                <div class="col-1">
+                    <div class="form-box">
+                        <div class="form">
+                            <form class="login-form", method="POST" action="/login_validation">
+                                <center><h2 class="main-heading"><b>Login Details</b></h2></center>
+				                <div class="form-group">
+                                    <input type="email" placeholder="email-id" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" placeholder="password" name="password" required>
+                                </div>
+                                <button class="title"><a href="/service">LOGIN</a></button>
+				            </form>
+
+                        </div>
+	                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+
+</body>
+</html>

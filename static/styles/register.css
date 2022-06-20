@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:  url('./policesecurity.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    overflow: hidden;
+}
+nav a {
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        float: left;
+        color: #06113C;
+        text-align: center;
+        font-size: large;
+        font-family: cursive;
+        font-weight: bold;
+        display: inline
+}
+h3 {
+    margin: auto;
+    font-size: large;
+    font-family: Georgia, serif;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px 2px gray;
+    font-size: 90px;
+    border-top: lightcoral;
+    border-radius: 70px;
+    border-color: magenta;
+    border-width: 1px;
+    border-radius: 0.5px;
+    backdrop-filter: blur(5px);
+
+}
+
+.sub-page{
+
+    padding: 80px;
+    position: relative;
+    background-color: #395B64;
+    width: 382px;
+    margin: 6% auto;
+    height: 100% ;
+    border-radius: 15px ;
+    font-size: medium;
+    text-shadow: lightcoral;
+
+
+}
+.navigation-bar{
+    width: 100%;
+    margin: 5% auto;
+    position: relative;
+    border-radius: 20px;
+    vertical-align: auto;
+    align-items: center;
+    text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+h1{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    font-family: cursive;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.register-form{
+    width: 400px;
+    height: 100%;
+    margin: 35px auto;
+    position: relative;
+    border-color: lightgreen;
+    border-radius: 20px;
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: cursive;
+    border-radius: 15px;
+
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: cursive;
+    border-radius: 15px;
+
+}
+button{
+    text-shadow: white;
+    background-color: #3A3845;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+    color: lightseagreen;
+    background-color: yellow;
+  }
+  header{
+    background: #395B64;
+
+ }

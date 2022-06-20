@@ -1,0 +1,168 @@
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:  url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+h3 {
+    margin: auto;
+    font-size: large;
+    font-family: Georgia, serif;
+    position: relative;
+    text-align: center;
+    text-shadow: 3px 3px 2px lightblue;
+    font-size: 90px;
+    border-top: white;
+    border-radius: 70px;
+    border-color: yellow;
+    border-width: 1px;
+    border-radius: 0.5px;
+    backdrop-filter: blur(5px);
+
+}
+
+.sub-page{
+
+    padding: 80px;
+    position: relative;
+    background-color: #7F8487;
+    width: 382px;
+    margin: 6% auto;
+    height: 100% ;
+    border-radius: 15px ;
+    font-size: medium;
+
+
+}
+.navigation-bar{
+    width: 100%;
+    margin: 5% auto;
+    position: relative;
+    border-radius: 20px;
+    vertical-align: auto;
+    align-items: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+h1{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    font-family: cursive;
+}
+h2{
+    font-size: x-large;
+    display: inline;
+    text-shadow: white;
+    font-family: cursive;
+}
+.login-form{
+    width: 400px;
+    margin: 35px auto;
+    position: relative;
+    border-color: lightgreen;
+    border-radius: 20px;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: cursive;
+    border-radius: 15px;
+
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: cursive;
+    border-radius: 15px;
+
+}
+
+
+button{
+    text-shadow: white;
+    background-color: #3A3845;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+    color: lightpink;
+    background-color: yellow;
+  }
+
+nav{
+    overflow: hidden;
+}
+nav a {
+        text-decoration: none;
+        padding: 30px;
+        text-align: center;
+        color: #06113C;
+        text-align: center;
+        font-size: large;
+        font-family: cursive;
+        font-weight: bold;
+        display: inline-block;
+    }
+.Button{
+    text-shadow: white;
+    background-color: #f8099c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    display: inline-block;
+    position:relative;
+    text-align: center;
+ }
+ header{
+    background: #7F8487
+
+ }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>REGISTER</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/register.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+</head>
+   <header>
+       <h3>Registration</h3>
+       <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/login">LOGIN</a></li>
+            <li><a href="/about">ABOUT US</a></li>
+
+  </ul>
+   </header>
+
+<body>
+    <div class="display">
+    <div class="full-page">
+        <div class="sub-page">
+            <center><h1> <b> POLICE SURVEILLANCE APP</b></h1></center>
+            <hr>
+            <hr>
+            <div class="navigation-bar">
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <div class="form-box">
+                        <div class="form">
+                            <form class="register-form" method="POST" action="/add_user">
+                                <center><h2 class="main-heading">Register </h2></center>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Police ID" name="uid" required >
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="user name" name="uname" required >
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="email-id" name="uemail" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" placeholder="password" name="upassword" required>
+                                </div>
+                                <button class="title"><a href="/login">REGISTER</a></button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+</html>
